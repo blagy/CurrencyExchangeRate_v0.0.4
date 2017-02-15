@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dejan.currencyexchangerate_v004.RegisterUser">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Name"
+        android:hint="Name"
+        android:singleLine="true"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/Name"
+        android:layout_alignEnd="@+id/Name"
+        android:layout_marginTop="29dp"
+        android:id="@+id/Username"
+        android:singleLine="true"
+        android:hint="Username"
+        android:textColorLink="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="118dp"
+        android:id="@+id/Register"
+        android:elevation="10dp"
+        android:textColorLink="@android:color/holo_blue_bright"
+        android:layout_below="@+id/Username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/Username"
+        android:layout_alignEnd="@+id/Username"
+        android:layout_marginTop="18dp"
+        android:id="@+id/Password"
+        android:hint="Password"
+        android:singleLine="true"
+        android:textColorLink="@android:color/holo_blue_bright" />
+</RelativeLayout>
